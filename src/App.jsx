@@ -1,26 +1,3 @@
-// import React, { useState } from 'react';
-// import HomePage from './HomePage';
-// import ChatPage from './ChatPage';
-// import './App.css';
-
-// function App() {
-//   const [chatStarted, setChatStarted] = useState(false);
-
-//   return (
-//     <div className="App">
-//       {!chatStarted ? (
-//         <HomePage onStartChat={() => setChatStarted(true)} />
-//       ) : (
-//         <ChatPage onBackToHome={() => setChatStarted(false)} />
-//       )}
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-//code w chat history
 import React, { useState } from 'react';
 import HomePage from './HomePage';
 import ChatPage from './ChatPage';
